@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 300;
+    color: #7a818d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #111827;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+header p {
+    line-height: 1.5rem;
+}
+
+header ul {
+    position: absolute;
+    padding-left: 0;
+    bottom: 150px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.flex-second form input {
+    /* width: 100%; */
+    margin-right: 30px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .container {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .flex {
+    align-items: center;
+}
+
+header .flex {
+    gap: 60px;
+}
+
+.flex-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    max-width: 50%;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.listProperty input[type="text"] {
+    border: 1px solid #dadde2;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column img {
+    margin-bottom: 20px;
+    vertical-align: middle;
+    max-width: 100%;
+    position: relative;
+}
+
+.find {
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+    bottom: 100px;
+    box-shadow: 5px 10px 8px 8px #eee;
+    border: 1px solid #d8d8d8;
+}
+
+.discovery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 15px;
+}
+
+.featured .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.benefits {
+    padding: 100px 0;
+}
+
+.benefits .flex {
+    gap: 30px;
+    align-items: center;
+}
+
+.benefits .flex > div:first-child {
+    flex: 1 1 60%;
+    width: 60%;
+}
+
+.benefits .flex > div:last-child {
+    flex: 1 1 40%;
+    width: 40%;
+}
+
+.benefits .flex > div:last-child .head {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #58606b;
+}
+
+.benefit .tag {
+    font-size: 12px;
+    display: inline;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.benefit h3 {
+    margin-top: 20px;
+}
+
+.benefit h2 {
+    margin-bottom: 50px;
+}
+
+.benefit div {
+    margin-top: 50px;
+}
+
+.benefit div:nth-child(3) .tag {
+    color: #6983ce;
+    background-color: #dbeafe;
+}
+
+.benefit div:nth-child(4) .tag {
+    color: #3a8054;
+    background-color: #defce8;
+}
+
+.benefit div:nth-child(5) .tag {
+    color: #b04949;
+    background-color: #fee2e2;
+}
